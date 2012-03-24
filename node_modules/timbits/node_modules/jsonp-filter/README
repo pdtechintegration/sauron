@@ -1,0 +1,32 @@
+# jsonp-filter
+jsonp filter for the express framework.
+
+## Introduction
+
+The purpose of jsonp-filter is to provide an option to serve the response as jsonp (callback with string input).
+
+## Installing
+
+Just grab [node.js](http://nodejs.org/#download) and [npm](http://github.com/isaacs/npm) and you're set:
+
+	npm install jsonp-filter
+	
+Note that jsonp-filter was developed using [CoffeeScript](http://coffeescript.org).
+
+## Using
+
+To utilize jsonp-filter, simply require it and then have the express server use the setupJSONP() method. To make sure that no other modules conflict with jsonp-filter, it should be used by the server before other 'use' methods.
+
+	jsonp = require 'jsonp-filter'
+
+	server.use jsonp.setupJSONP()
+
+After jsonp-filter has been setup, responses can now be served as jsonp by specifying json=true&callback=callbackname as query string parameters.
+
+## Outstanding Issues
+
+* none at this time
+
+## Created by
+
+* Stephen Veerman

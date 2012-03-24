@@ -1,0 +1,13 @@
+h3 {color:red}
+
+div {font-family:Arial; float:left}
+
+#icon {top-margin:0px; left-margin:0px; width:55px}
+
+#city {position:relative; top:5px; left-margin:0px; font-size:14px}
+
+#temperature {position:relative; top:3px; left-margin:0px; font-size:16px}
+
+#details_holder {position:absolute; top:32px; left:63px; font-size:12px}
+
+#forecast_link {position:absolute; top:47px;left:63px; font-size:11px;}

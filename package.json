@@ -1,0 +1,12 @@
+{
+	"name": "weather",
+	"description": "Widgets built using Timbits",
+	"version": "0.0.1",
+	"dependencies": {
+		"timbits": ">= 0.4.0"
+	},
+	"devDependencies": {
+		"vows": ">= 0.6.1",
+		"request": ">= 2.9.100"
+	}
+}
